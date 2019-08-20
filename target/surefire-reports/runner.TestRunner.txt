@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.22 sec <<< FAILURE! - in runner.TestRunner
+feature(runner.TestRunner)  Time elapsed: 1.778 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ronaks-MacBook-Pro.local', ip: '2405:204:38e:e443:70a8:ed68:7e2a:2f0e', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b96ef89 chromedriver + 3694473
+1   chromedriver                        0x000000010b8fc0a3 chromedriver + 3223715
+2   chromedriver                        0x000000010b69b4df chromedriver + 730335
+3   chromedriver                        0x000000010b60104b chromedriver + 98379
+4   chromedriver                        0x000000010b5fd16a chromedriver + 82282
+5   chromedriver                        0x000000010b62aa81 chromedriver + 268929
+6   chromedriver                        0x000000010b627dc3 chromedriver + 257475
+7   chromedriver                        0x000000010b60317d chromedriver + 106877
+8   chromedriver                        0x000000010b604115 chromedriver + 110869
+9   chromedriver                        0x000000010b92a14f chromedriver + 3412303
+10  chromedriver                        0x000000010b936d6d chromedriver + 3464557
+11  chromedriver                        0x000000010b936af8 chromedriver + 3463928
+12  chromedriver                        0x000000010b909a29 chromedriver + 3279401
+13  chromedriver                        0x000000010b9375c8 chromedriver + 3466696
+14  chromedriver                        0x000000010b91e287 chromedriver + 3363463
+15  chromedriver                        0x000000010b9554f4 chromedriver + 3589364
+16  chromedriver                        0x000000010b974d67 chromedriver + 3718503
+17  libsystem_pthread.dylib             0x00007fff5ebf02eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5ebf3249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5ebef40d thread_start + 13
+
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ronaks-MacBook-Pro.local', ip: '2405:204:38e:e443:70a8:ed68:7e2a:2f0e', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b96ef89 chromedriver + 3694473
+1   chromedriver                        0x000000010b8fc0a3 chromedriver + 3223715
+2   chromedriver                        0x000000010b69b4df chromedriver + 730335
+3   chromedriver                        0x000000010b60104b chromedriver + 98379
+4   chromedriver                        0x000000010b5fd16a chromedriver + 82282
+5   chromedriver                        0x000000010b62aa81 chromedriver + 268929
+6   chromedriver                        0x000000010b627dc3 chromedriver + 257475
+7   chromedriver                        0x000000010b60317d chromedriver + 106877
+8   chromedriver                        0x000000010b604115 chromedriver + 110869
+9   chromedriver                        0x000000010b92a14f chromedriver + 3412303
+10  chromedriver                        0x000000010b936d6d chromedriver + 3464557
+11  chromedriver                        0x000000010b936af8 chromedriver + 3463928
+12  chromedriver                        0x000000010b909a29 chromedriver + 3279401
+13  chromedriver                        0x000000010b9375c8 chromedriver + 3466696
+14  chromedriver                        0x000000010b91e287 chromedriver + 3363463
+15  chromedriver                        0x000000010b9554f4 chromedriver + 3589364
+16  chromedriver                        0x000000010b974d67 chromedriver + 3718503
+17  libsystem_pthread.dylib             0x00007fff5ebf02eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5ebf3249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5ebef40d thread_start + 13
+
+

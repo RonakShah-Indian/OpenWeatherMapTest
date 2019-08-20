@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.TestRunner" time="12.22" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2018.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ronakshah/Downloads/DiscoveryVideoTest-master 2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ronakshah/Downloads/DiscoveryVideoTest-master 2"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/ky/rggmcv_x6jz_t4tg54r2d7xr0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ronakshah/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ronakshah"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ronakshah"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="/Users/ronakshah/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="1.778">
+    <failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Ronaks-MacBook-Pro.local&apos;, ip: &apos;2405:204:38e:e443:70a8:ed68:7e2a:2f0e&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: 0   chromedriver                        0x000000010b96ef89 chromedriver + 3694473&#10;1   chromedriver                        0x000000010b8fc0a3 chromedriver + 3223715&#10;2   chromedriver                        0x000000010b69b4df chromedriver + 730335&#10;3   chromedriver                        0x000000010b60104b chromedriver + 98379&#10;4   chromedriver                        0x000000010b5fd16a chromedriver + 82282&#10;5   chromedriver                        0x000000010b62aa81 chromedriver + 268929&#10;6   chromedriver                        0x000000010b627dc3 chromedriver + 257475&#10;7   chromedriver                        0x000000010b60317d chromedriver + 106877&#10;8   chromedriver                        0x000000010b604115 chromedriver + 110869&#10;9   chromedriver                        0x000000010b92a14f chromedriver + 3412303&#10;10  chromedriver                        0x000000010b936d6d chromedriver + 3464557&#10;11  chromedriver                        0x000000010b936af8 chromedriver + 3463928&#10;12  chromedriver                        0x000000010b909a29 chromedriver + 3279401&#10;13  chromedriver                        0x000000010b9375c8 chromedriver + 3466696&#10;14  chromedriver                        0x000000010b91e287 chromedriver + 3363463&#10;15  chromedriver                        0x000000010b9554f4 chromedriver + 3589364&#10;16  chromedriver                        0x000000010b974d67 chromedriver + 3718503&#10;17  libsystem_pthread.dylib             0x00007fff5ebf02eb _pthread_body + 126&#10;18  libsystem_pthread.dylib             0x00007fff5ebf3249 _pthread_start + 66&#10;19  libsystem_pthread.dylib             0x00007fff5ebef40d thread_start + 13&#10;" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ronaks-MacBook-Pro.local', ip: '2405:204:38e:e443:70a8:ed68:7e2a:2f0e', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b96ef89 chromedriver + 3694473
+1   chromedriver                        0x000000010b8fc0a3 chromedriver + 3223715
+2   chromedriver                        0x000000010b69b4df chromedriver + 730335
+3   chromedriver                        0x000000010b60104b chromedriver + 98379
+4   chromedriver                        0x000000010b5fd16a chromedriver + 82282
+5   chromedriver                        0x000000010b62aa81 chromedriver + 268929
+6   chromedriver                        0x000000010b627dc3 chromedriver + 257475
+7   chromedriver                        0x000000010b60317d chromedriver + 106877
+8   chromedriver                        0x000000010b604115 chromedriver + 110869
+9   chromedriver                        0x000000010b92a14f chromedriver + 3412303
+10  chromedriver                        0x000000010b936d6d chromedriver + 3464557
+11  chromedriver                        0x000000010b936af8 chromedriver + 3463928
+12  chromedriver                        0x000000010b909a29 chromedriver + 3279401
+13  chromedriver                        0x000000010b9375c8 chromedriver + 3466696
+14  chromedriver                        0x000000010b91e287 chromedriver + 3363463
+15  chromedriver                        0x000000010b9554f4 chromedriver + 3589364
+16  chromedriver                        0x000000010b974d67 chromedriver + 3718503
+17  libsystem_pthread.dylib             0x00007fff5ebf02eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5ebf3249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5ebef40d thread_start + 13
+
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ronaks-MacBook-Pro.local', ip: '2405:204:38e:e443:70a8:ed68:7e2a:2f0e', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010b96ef89 chromedriver + 3694473
+1   chromedriver                        0x000000010b8fc0a3 chromedriver + 3223715
+2   chromedriver                        0x000000010b69b4df chromedriver + 730335
+3   chromedriver                        0x000000010b60104b chromedriver + 98379
+4   chromedriver                        0x000000010b5fd16a chromedriver + 82282
+5   chromedriver                        0x000000010b62aa81 chromedriver + 268929
+6   chromedriver                        0x000000010b627dc3 chromedriver + 257475
+7   chromedriver                        0x000000010b60317d chromedriver + 106877
+8   chromedriver                        0x000000010b604115 chromedriver + 110869
+9   chromedriver                        0x000000010b92a14f chromedriver + 3412303
+10  chromedriver                        0x000000010b936d6d chromedriver + 3464557
+11  chromedriver                        0x000000010b936af8 chromedriver + 3463928
+12  chromedriver                        0x000000010b909a29 chromedriver + 3279401
+13  chromedriver                        0x000000010b9375c8 chromedriver + 3466696
+14  chromedriver                        0x000000010b91e287 chromedriver + 3363463
+15  chromedriver                        0x000000010b9554f4 chromedriver + 3589364
+16  chromedriver                        0x000000010b974d67 chromedriver + 3718503
+17  libsystem_pthread.dylib             0x00007fff5ebf02eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff5ebf3249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff5ebef40d thread_start + 13
+
+</failure>
+    <system-out><![CDATA[Opening the browser : Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.10 (bc3579f611bbc73331171afe020ec7a45e6ccc55-refs/branch-heads/3865@{#93}) on port 28694
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+</testsuite>

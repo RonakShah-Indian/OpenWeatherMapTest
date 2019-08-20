@@ -1,0 +1,285 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1756971923,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Site UI",
+        "description": "",
+        "id": "open-openweather-site-and-verify-the-site-ui;verify-site-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 81500179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999469846,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the api check the response",
+            "match": {
+              "location": "OpenWeatherMapApiTest.checkApi()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Open openweather site and verify the site UI",
+    "description": "",
+    "id": "open-openweather-site-and-verify-the-site-ui",
+    "keyword": "Feature",
+    "uri": "CheckApi.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1071654961,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Site UI",
+        "description": "",
+        "id": "open-openweather-site-and-verify-the-site-ui;verify-site-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 91638345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6622871600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user goes to openWeather homepage",
+            "match": {
+              "location": "OpenWeatherMapStep.openUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13583649924,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the invalid city is entered and searched",
+            "match": {
+              "location": "InvalidSearchStep.searchInvalidCity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48499127,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "No result should be found",
+            "match": {
+              "location": "InvalidSearchStep.checkInValidCityResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open openweather site and verify the site UI",
+    "description": "",
+    "id": "open-openweather-site-and-verify-the-site-ui",
+    "keyword": "Feature",
+    "uri": "CitySearchInvalid.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1066659722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Site UI",
+        "description": "",
+        "id": "open-openweather-site-and-verify-the-site-ui;verify-site-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 81335164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "a user goes to openWeathermap homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the valid city is entered and searched",
+            "match": {
+              "location": "ValidSearchStep.searchInvalidCity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "City Results should be found",
+            "match": {
+              "location": "ValidSearchStep.checkValidResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open openweather site and verify the site UI",
+    "description": "",
+    "id": "open-openweather-site-and-verify-the-site-ui",
+    "keyword": "Feature",
+    "uri": "CitySearchValid.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1059599360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Site UI",
+        "description": "",
+        "id": "open-openweather-site-and-verify-the-site-ui;verify-site-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 91346247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11005732827,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user opens to openWeather homepage",
+            "match": {
+              "location": "InvalidSearchStep.openWeatherUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6208371,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the Page Loads",
+            "match": {
+              "location": "OpenWeatherMapStep.pageLoads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81036945,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the UI of the screen should be verified",
+            "match": {
+              "location": "OpenWeatherMapStep.checkUI()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open openweather site and verify the site UI",
+    "description": "",
+    "id": "open-openweather-site-and-verify-the-site-ui",
+    "keyword": "Feature",
+    "uri": "OpenWeather.feature"
+  }
+]
